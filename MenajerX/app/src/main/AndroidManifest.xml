@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gogo.kotlinbtk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/menajersimge"
+        android:label="MenajerX"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KotlinBTK"
+        tools:targetApi="31">
+        <activity
+            android:name=".YapayZeka2"
+            android:exported="false" />
+        <activity
+            android:name=".MainProfilim"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".YapayZeka"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainSecim"
+            android:exported="false" />
+        <activity
+            android:name=".MainKayitol"
+            android:exported="false" />
+        <activity
+            android:name=".MainEtkilesimGoruntule"
+            android:exported="false" />
+        <activity
+            android:name=".MainPopulerKonular"
+            android:exported="false" />
+        <activity
+            android:name=".MainSentimentAnaliz"
+            android:exported="false" />
+        <activity
+            android:name=".Mainilkekran"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

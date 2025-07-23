@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="inputText" type="id" />
+    <item name="sendButton" type="id" />
+    <item name="responseText" type="id" />
+    <item name="kullaniciAdigetir" type="id" />
+    <item name="sifregetir" type="id" />
+    <item name="xkullaniciAdiGetir" type="id" />
+    <item name="headerText" type="id" />
+    <item name="usernameInput" type="id" />
+    <item name="getMentionsButton" type="id" />
+    <item name="mentionsText" type="id" />
+    <item name="generateRepliesButton" type="id" />
+    <item name="repliesText" type="id" />
+    <item name="textxkullaniciadi" type="id" />
+    <item name="btnanaliz" type="id" />
+    <item name="barChart" type="id" />
+    <item name="textxkullaniciadiyorumyanit" type="id" />
+</resources>

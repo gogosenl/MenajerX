@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KotlinBTK</string>
+    <string name="etkile_im_analizi_yapmak_istedi_iniz_x_hesab_n_n_kullan_c_ad_n_giriniz">Etkileşim analizi yapmak istediğiniz X hesabının kullanıcı adını giriniz</string>
+    <string name="kullan_c_ad">Kullanıcı Adı</string>
+    <string name="analiz_et">Analiz Et</string>
+    <string name="kelime_giriniz">Kelime Giriniz</string>
+    <string name="btn_fetch_trends_text">Gündemi Getir</string>
+    <string name="g_ndemdeki_hashtagler_burada_g_r_nt_lenecek">Gündemdeki hashtagler burada görüntülenecek</string>
+    <string name="kullan_c_ad_n_girin">Kullanıcı Adını Girin</string>
+    <string name="sentiment_analizi_burada_g_r_necek">Sentiment analizi burada görünecek</string>
+    <string name="giri_yap">Giriş Yap</string>
+    <string name="tweet_eri_i_gecici_buton">Tweet İçeriği (gecici buton)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kullan_c_bilgileri">Kullanıcı Bilgileri</string>
+</resources>

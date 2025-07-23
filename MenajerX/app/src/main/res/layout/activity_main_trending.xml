@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/arkaplanpopulerkonu"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainPopulerKonular">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:menu="@menu/nav_menu2"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Girilen Kelimeye Ait Popüler Hashtagler"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        />
+
+    <EditText
+        android:id="@+id/edtSearchQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="#FFFFFF"
+        android:elevation="2dp"
+        android:hint="@string/kelime_giriniz"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btnFetchTrends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#60282525"
+        android:padding="16dp"
+        android:text="@string/btn_fetch_trends_text" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main Content -->
+        <FrameLayout
+            android:id="@+id/activity_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigation" >
+
+            <TextView
+                android:id="@+id/txtTrends"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:layout_marginTop="8dp"
+                android:background="#80FFFFFF"
+                android:padding="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:text=""
+                android:textSize="16sp" />
+        </FrameLayout>
+
+        <!-- Bottom Navigation -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_nav_menu"
+            app:itemIconTint="@android:color/black"
+            android:background="@android:color/transparent"
+            app:itemTextColor="@android:color/black"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_populer_konular"
+        android:icon="@drawable/navbar_populer"
+        android:title="Popüler Konular" />
+    <item
+        android:id="@+id/nav_sentiment_analiz"
+        android:icon="@drawable/navbar_sentiment"
+        android:title="Duygu Analizi" />
+    <item
+        android:id="@+id/nav_yapay_zeka"
+        android:icon="@drawable/navbar_icerikolusturma"
+        android:title="İcerik Oluşturma" />
+    <item
+        android:id="@+id/nav_yapay_zeka_2"
+        android:icon="@drawable/navbar_yorumyanit"
+        android:title="Yorumlara Yanıt Oluşturma" />
+    <item
+        android:id="@+id/nav_etkilesim_goruntule"
+        android:icon="@drawable/navbar_etkilesimsaati"
+        android:title="Etkilesim Saati" />
+
+</menu>
+
+
