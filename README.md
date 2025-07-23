@@ -1,4 +1,7 @@
 ![1738778696562](https://github.com/user-attachments/assets/13b4da3a-b9ea-47a4-b91b-e876335f8c13)
+
+
+
 Menajer X projemizde, X platformu kullanıcıları için **yapay zeka destekli sosyal medya danışmanlığı** sunmayı hedefledik.  
 Geliştirdiğimiz sistem sayesinde kullanıcılar:
 
